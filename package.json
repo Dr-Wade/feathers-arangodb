@@ -1,5 +1,5 @@
 {
-  "name": "@bcc-its/feathers-arangodb",
+  "name": "@drwade/feathers-arangodb",
   "version": "1.1.5",
   "description": "ArangoDB Service/Adapter for FeathersJS",
   "homepage": "https://github.com/AnatidaeProject/feathers-arangodb",
@@ -8,10 +8,10 @@
   "author": "Brian McBride",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bcc-its/feathers-arangodb.git"
+    "url": "git://github.com/Dr-Wade/feathers-arangodb.git"
   },
   "bugs": {
-    "url": "https://github.com/Brian-McBride/feathers-arangodb/issues"
+    "url": "https://github.com/Dr-Wade/feathers-arangodb/issues"
   },
   "license": "MIT",
   "keywords": [
