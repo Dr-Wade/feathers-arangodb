@@ -2,7 +2,6 @@ import feathers from "@feathersjs/feathers";
 import { Application } from "@feathersjs/feathers";
 import { expect } from "chai";
 import ArangoDbService, { IArangoDbService, AUTH_TYPES } from "../src";
-import { importDB } from "./setup-tests/setup";
 
 const serviceName = "person";
 let testUser: any = null;
@@ -28,8 +27,8 @@ describe(`Feathers search tests on the ${serviceName} service `, () => {
       })
     );
     service = <IArangoDbService<any>>app.service(serviceName);
-    testUser = await service.get('178494230', {});
-    specialCharactersUser = await service.get('430126186', {});
+    testUser = await service.get('', {});
+    specialCharactersUser = await service.get('', {});
   });
   
   it("Search - PersonID", async () => {
